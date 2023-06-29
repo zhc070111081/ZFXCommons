@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C9654735A8FB72DF93FA68 /* Pods_ZFXCommon_ZFXCommonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5B9C1129FC6B3D2E84E4FF /* Pods_ZFXCommon_ZFXCommonUITests.framework */; };
+		52FE00B48F4A8252794D2CC3 /* Pods_ZFXCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8369741EE08FE14696EE54F /* Pods_ZFXCommon.framework */; };
+		74B0A7E752B825317C715818 /* Pods_ZFXCommonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA42AB6A9C3227173BB07DE /* Pods_ZFXCommonTests.framework */; };
+		F16CE11C2A204D1B0092870B /* UIView+ZFXKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE11B2A204D1B0092870B /* UIView+ZFXKit.m */; };
+		F16CE1202A204F070092870B /* ZFXAnswerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE11F2A204F070092870B /* ZFXAnswerPageView.m */; };
+		F16CE1232A205F000092870B /* ZFXTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE1222A205F000092870B /* ZFXTempView.m */; };
+		F16CE1262A20616D0092870B /* ZFXPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE1242A20616C0092870B /* ZFXPageView.m */; };
+		F1848B6A2A1F60E600CDC482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B692A1F60E600CDC482 /* AppDelegate.m */; };
+		F1848B6D2A1F60E600CDC482 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B6C2A1F60E600CDC482 /* SceneDelegate.m */; };
+		F1848B702A1F60E600CDC482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B6F2A1F60E600CDC482 /* ViewController.m */; };
+		F1848B732A1F60E600CDC482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1848B712A1F60E600CDC482 /* Main.storyboard */; };
+		F1848B752A1F60E800CDC482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1848B742A1F60E800CDC482 /* Assets.xcassets */; };
+		F1848B782A1F60E800CDC482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1848B762A1F60E800CDC482 /* LaunchScreen.storyboard */; };
+		F1848B7B2A1F60E800CDC482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B7A2A1F60E800CDC482 /* main.m */; };
+		F1848B852A1F60E800CDC482 /* ZFXCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B842A1F60E800CDC482 /* ZFXCommonTests.m */; };
+		F1848B8F2A1F60E800CDC482 /* ZFXCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B8E2A1F60E800CDC482 /* ZFXCommonUITests.m */; };
+		F1848B912A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B902A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1848B812A1F60E800CDC482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1848B5D2A1F60E600CDC482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1848B642A1F60E600CDC482;
+			remoteInfo = ZFXCommon;
+		};
+		F1848B8B2A1F60E800CDC482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1848B5D2A1F60E600CDC482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1848B642A1F60E600CDC482;
+			remoteInfo = ZFXCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25E9BE1430FEEA2F6BB86060 /* Pods-ZFXCommon-ZFXCommonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommon-ZFXCommonUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZFXCommon-ZFXCommonUITests/Pods-ZFXCommon-ZFXCommonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B712C735167C9258054E72B /* Pods-ZFXCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommon.debug.xcconfig"; path = "Target Support Files/Pods-ZFXCommon/Pods-ZFXCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5B9C1129FC6B3D2E84E4FF /* Pods_ZFXCommon_ZFXCommonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFXCommon_ZFXCommonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A473629488FBB5D6B9B47955 /* Pods-ZFXCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommonTests.debug.xcconfig"; path = "Target Support Files/Pods-ZFXCommonTests/Pods-ZFXCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B77A993CC9783F7B65969F0E /* Pods-ZFXCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommon.release.xcconfig"; path = "Target Support Files/Pods-ZFXCommon/Pods-ZFXCommon.release.xcconfig"; sourceTree = "<group>"; };
+		BC9830BC254C6493929C8B0C /* Pods-ZFXCommon-ZFXCommonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommon-ZFXCommonUITests.release.xcconfig"; path = "Target Support Files/Pods-ZFXCommon-ZFXCommonUITests/Pods-ZFXCommon-ZFXCommonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA42AB6A9C3227173BB07DE /* Pods_ZFXCommonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFXCommonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF63F176DBFAC2D41665E98B /* Pods-ZFXCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFXCommonTests.release.xcconfig"; path = "Target Support Files/Pods-ZFXCommonTests/Pods-ZFXCommonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8369741EE08FE14696EE54F /* Pods_ZFXCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFXCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16CE11A2A204D1B0092870B /* UIView+ZFXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZFXKit.h"; sourceTree = "<group>"; };
+		F16CE11B2A204D1B0092870B /* UIView+ZFXKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFXKit.m"; sourceTree = "<group>"; };
+		F16CE11E2A204F070092870B /* ZFXAnswerPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXAnswerPageView.h; sourceTree = "<group>"; };
+		F16CE11F2A204F070092870B /* ZFXAnswerPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXAnswerPageView.m; sourceTree = "<group>"; };
+		F16CE1212A205F000092870B /* ZFXTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFXTempView.h; sourceTree = "<group>"; };
+		F16CE1222A205F000092870B /* ZFXTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXTempView.m; sourceTree = "<group>"; };
+		F16CE1242A20616C0092870B /* ZFXPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXPageView.m; sourceTree = "<group>"; };
+		F16CE1252A20616C0092870B /* ZFXPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFXPageView.h; sourceTree = "<group>"; };
+		F1848B652A1F60E600CDC482 /* ZFXCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFXCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1848B682A1F60E600CDC482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1848B692A1F60E600CDC482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1848B6B2A1F60E600CDC482 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F1848B6C2A1F60E600CDC482 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F1848B6E2A1F60E600CDC482 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1848B6F2A1F60E600CDC482 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1848B722A1F60E600CDC482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1848B742A1F60E800CDC482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1848B772A1F60E800CDC482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1848B792A1F60E800CDC482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1848B7A2A1F60E800CDC482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1848B802A1F60E800CDC482 /* ZFXCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFXCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1848B842A1F60E800CDC482 /* ZFXCommonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXCommonTests.m; sourceTree = "<group>"; };
+		F1848B8A2A1F60E800CDC482 /* ZFXCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFXCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1848B8E2A1F60E800CDC482 /* ZFXCommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXCommonUITests.m; sourceTree = "<group>"; };
+		F1848B902A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXCommonUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1848B622A1F60E600CDC482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE00B48F4A8252794D2CC3 /* Pods_ZFXCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B7D2A1F60E800CDC482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0A7E752B825317C715818 /* Pods_ZFXCommonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B872A1F60E800CDC482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C9654735A8FB72DF93FA68 /* Pods_ZFXCommon_ZFXCommonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA3BEA806C023411A9A97C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B712C735167C9258054E72B /* Pods-ZFXCommon.debug.xcconfig */,
+				B77A993CC9783F7B65969F0E /* Pods-ZFXCommon.release.xcconfig */,
+				25E9BE1430FEEA2F6BB86060 /* Pods-ZFXCommon-ZFXCommonUITests.debug.xcconfig */,
+				BC9830BC254C6493929C8B0C /* Pods-ZFXCommon-ZFXCommonUITests.release.xcconfig */,
+				A473629488FBB5D6B9B47955 /* Pods-ZFXCommonTests.debug.xcconfig */,
+				DF63F176DBFAC2D41665E98B /* Pods-ZFXCommonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80D52C6AA45E0FC20C5179C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8369741EE08FE14696EE54F /* Pods_ZFXCommon.framework */,
+				9C5B9C1129FC6B3D2E84E4FF /* Pods_ZFXCommon_ZFXCommonUITests.framework */,
+				CDA42AB6A9C3227173BB07DE /* Pods_ZFXCommonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16CE1192A204CFE0092870B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F16CE11A2A204D1B0092870B /* UIView+ZFXKit.h */,
+				F16CE11B2A204D1B0092870B /* UIView+ZFXKit.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F16CE11D2A204EEE0092870B /* AnswerPage */ = {
+			isa = PBXGroup;
+			children = (
+				F16CE11E2A204F070092870B /* ZFXAnswerPageView.h */,
+				F16CE11F2A204F070092870B /* ZFXAnswerPageView.m */,
+			);
+			path = AnswerPage;
+			sourceTree = "<group>";
+		};
+		F1848B5C2A1F60E600CDC482 = {
+			isa = PBXGroup;
+			children = (
+				F1848B672A1F60E600CDC482 /* ZFXCommon */,
+				F1848B832A1F60E800CDC482 /* ZFXCommonTests */,
+				F1848B8D2A1F60E800CDC482 /* ZFXCommonUITests */,
+				F1848B662A1F60E600CDC482 /* Products */,
+				2EA3BEA806C023411A9A97C3 /* Pods */,
+				80D52C6AA45E0FC20C5179C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1848B662A1F60E600CDC482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1848B652A1F60E600CDC482 /* ZFXCommon.app */,
+				F1848B802A1F60E800CDC482 /* ZFXCommonTests.xctest */,
+				F1848B8A2A1F60E800CDC482 /* ZFXCommonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1848B672A1F60E600CDC482 /* ZFXCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F16CE1252A20616C0092870B /* ZFXPageView.h */,
+				F16CE1242A20616C0092870B /* ZFXPageView.m */,
+				F16CE1212A205F000092870B /* ZFXTempView.h */,
+				F16CE1222A205F000092870B /* ZFXTempView.m */,
+				F1848BDA2A1F61A300CDC482 /* Example */,
+				F1848BDB2A1F629700CDC482 /* CommonUtils */,
+				F1848BD92A1F612100CDC482 /* CommonUIKit */,
+				F1848B682A1F60E600CDC482 /* AppDelegate.h */,
+				F1848B692A1F60E600CDC482 /* AppDelegate.m */,
+				F1848B6B2A1F60E600CDC482 /* SceneDelegate.h */,
+				F1848B6C2A1F60E600CDC482 /* SceneDelegate.m */,
+				F1848B6E2A1F60E600CDC482 /* ViewController.h */,
+				F1848B6F2A1F60E600CDC482 /* ViewController.m */,
+				F1848B712A1F60E600CDC482 /* Main.storyboard */,
+				F1848B742A1F60E800CDC482 /* Assets.xcassets */,
+				F1848B762A1F60E800CDC482 /* LaunchScreen.storyboard */,
+				F1848B792A1F60E800CDC482 /* Info.plist */,
+				F1848B7A2A1F60E800CDC482 /* main.m */,
+			);
+			path = ZFXCommon;
+			sourceTree = "<group>";
+		};
+		F1848B832A1F60E800CDC482 /* ZFXCommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1848B842A1F60E800CDC482 /* ZFXCommonTests.m */,
+			);
+			path = ZFXCommonTests;
+			sourceTree = "<group>";
+		};
+		F1848B8D2A1F60E800CDC482 /* ZFXCommonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1848B8E2A1F60E800CDC482 /* ZFXCommonUITests.m */,
+				F1848B902A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m */,
+			);
+			path = ZFXCommonUITests;
+			sourceTree = "<group>";
+		};
+		F1848BD92A1F612100CDC482 /* CommonUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F16CE11D2A204EEE0092870B /* AnswerPage */,
+				F16CE1192A204CFE0092870B /* Category */,
+			);
+			path = CommonUIKit;
+			sourceTree = "<group>";
+		};
+		F1848BDA2A1F61A300CDC482 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F1848BDB2A1F629700CDC482 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1848B642A1F60E600CDC482 /* ZFXCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1848B942A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommon" */;
+			buildPhases = (
+				71D85E60B6C51398EE94FFBC /* [CP] Check Pods Manifest.lock */,
+				F1848B612A1F60E600CDC482 /* Sources */,
+				F1848B622A1F60E600CDC482 /* Frameworks */,
+				F1848B632A1F60E600CDC482 /* Resources */,
+				EA72EE9DB6F3A7CF6BC81D18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFXCommon;
+			productName = ZFXCommon;
+			productReference = F1848B652A1F60E600CDC482 /* ZFXCommon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1848B7F2A1F60E800CDC482 /* ZFXCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1848B972A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommonTests" */;
+			buildPhases = (
+				B2962437864FAF8645601A44 /* [CP] Check Pods Manifest.lock */,
+				F1848B7C2A1F60E800CDC482 /* Sources */,
+				F1848B7D2A1F60E800CDC482 /* Frameworks */,
+				F1848B7E2A1F60E800CDC482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1848B822A1F60E800CDC482 /* PBXTargetDependency */,
+			);
+			name = ZFXCommonTests;
+			productName = ZFXCommonTests;
+			productReference = F1848B802A1F60E800CDC482 /* ZFXCommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1848B892A1F60E800CDC482 /* ZFXCommonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1848B9A2A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommonUITests" */;
+			buildPhases = (
+				7507568B56A451469C34833A /* [CP] Check Pods Manifest.lock */,
+				F1848B862A1F60E800CDC482 /* Sources */,
+				F1848B872A1F60E800CDC482 /* Frameworks */,
+				F1848B882A1F60E800CDC482 /* Resources */,
+				68701A4D2952888329378CAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1848B8C2A1F60E800CDC482 /* PBXTargetDependency */,
+			);
+			name = ZFXCommonUITests;
+			productName = ZFXCommonUITests;
+			productReference = F1848B8A2A1F60E800CDC482 /* ZFXCommonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1848B5D2A1F60E600CDC482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ZFX;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F1848B642A1F60E600CDC482 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F1848B7F2A1F60E800CDC482 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1848B642A1F60E600CDC482;
+					};
+					F1848B892A1F60E800CDC482 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F1848B642A1F60E600CDC482;
+					};
+				};
+			};
+			buildConfigurationList = F1848B602A1F60E600CDC482 /* Build configuration list for PBXProject "ZFXCommon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1848B5C2A1F60E600CDC482;
+			productRefGroup = F1848B662A1F60E600CDC482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1848B642A1F60E600CDC482 /* ZFXCommon */,
+				F1848B7F2A1F60E800CDC482 /* ZFXCommonTests */,
+				F1848B892A1F60E800CDC482 /* ZFXCommonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1848B632A1F60E600CDC482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1848B782A1F60E800CDC482 /* LaunchScreen.storyboard in Resources */,
+				F1848B752A1F60E800CDC482 /* Assets.xcassets in Resources */,
+				F1848B732A1F60E600CDC482 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B7E2A1F60E800CDC482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B882A1F60E800CDC482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68701A4D2952888329378CAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon-ZFXCommonUITests/Pods-ZFXCommon-ZFXCommonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon-ZFXCommonUITests/Pods-ZFXCommon-ZFXCommonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon-ZFXCommonUITests/Pods-ZFXCommon-ZFXCommonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D85E60B6C51398EE94FFBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFXCommon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7507568B56A451469C34833A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFXCommon-ZFXCommonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2962437864FAF8645601A44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFXCommonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA72EE9DB6F3A7CF6BC81D18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon/Pods-ZFXCommon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon/Pods-ZFXCommon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZFXCommon/Pods-ZFXCommon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1848B612A1F60E600CDC482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16CE1262A20616D0092870B /* ZFXPageView.m in Sources */,
+				F1848B702A1F60E600CDC482 /* ViewController.m in Sources */,
+				F1848B6A2A1F60E600CDC482 /* AppDelegate.m in Sources */,
+				F1848B7B2A1F60E800CDC482 /* main.m in Sources */,
+				F1848B6D2A1F60E600CDC482 /* SceneDelegate.m in Sources */,
+				F16CE1232A205F000092870B /* ZFXTempView.m in Sources */,
+				F16CE1202A204F070092870B /* ZFXAnswerPageView.m in Sources */,
+				F16CE11C2A204D1B0092870B /* UIView+ZFXKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B7C2A1F60E800CDC482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1848B852A1F60E800CDC482 /* ZFXCommonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1848B862A1F60E800CDC482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1848B912A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m in Sources */,
+				F1848B8F2A1F60E800CDC482 /* ZFXCommonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1848B822A1F60E800CDC482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1848B642A1F60E600CDC482 /* ZFXCommon */;
+			targetProxy = F1848B812A1F60E800CDC482 /* PBXContainerItemProxy */;
+		};
+		F1848B8C2A1F60E800CDC482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1848B642A1F60E600CDC482 /* ZFXCommon */;
+			targetProxy = F1848B8B2A1F60E800CDC482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1848B712A1F60E600CDC482 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1848B722A1F60E600CDC482 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1848B762A1F60E800CDC482 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1848B772A1F60E800CDC482 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1848B922A1F60E800CDC482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1848B932A1F60E800CDC482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1848B952A1F60E800CDC482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B712C735167C9258054E72B /* Pods-ZFXCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZFXCommon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1848B962A1F60E800CDC482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77A993CC9783F7B65969F0E /* Pods-ZFXCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZFXCommon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1848B982A1F60E800CDC482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A473629488FBB5D6B9B47955 /* Pods-ZFXCommonTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFXCommon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZFXCommon";
+			};
+			name = Debug;
+		};
+		F1848B992A1F60E800CDC482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF63F176DBFAC2D41665E98B /* Pods-ZFXCommonTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFXCommon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZFXCommon";
+			};
+			name = Release;
+		};
+		F1848B9B2A1F60E800CDC482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E9BE1430FEEA2F6BB86060 /* Pods-ZFXCommon-ZFXCommonUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFXCommon;
+			};
+			name = Debug;
+		};
+		F1848B9C2A1F60E800CDC482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9830BC254C6493929C8B0C /* Pods-ZFXCommon-ZFXCommonUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72DA434HBH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.ZFXCommonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFXCommon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1848B602A1F60E600CDC482 /* Build configuration list for PBXProject "ZFXCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1848B922A1F60E800CDC482 /* Debug */,
+				F1848B932A1F60E800CDC482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1848B942A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1848B952A1F60E800CDC482 /* Debug */,
+				F1848B962A1F60E800CDC482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1848B972A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1848B982A1F60E800CDC482 /* Debug */,
+				F1848B992A1F60E800CDC482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1848B9A2A1F60E800CDC482 /* Build configuration list for PBXNativeTarget "ZFXCommonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1848B9B2A1F60E800CDC482 /* Debug */,
+				F1848B9C2A1F60E800CDC482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1848B5D2A1F60E600CDC482 /* Project object */;
+}
