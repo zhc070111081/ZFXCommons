@@ -24,6 +24,8 @@
 		F1848B852A1F60E800CDC482 /* ZFXCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B842A1F60E800CDC482 /* ZFXCommonTests.m */; };
 		F1848B8F2A1F60E800CDC482 /* ZFXCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B8E2A1F60E800CDC482 /* ZFXCommonUITests.m */; };
 		F1848B912A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B902A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m */; };
+		F1B750DD2A4E6B6800B0A7FB /* ZFXLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B750DC2A4E6B6800B0A7FB /* ZFXLogManager.m */; };
+		F1B750E12A4E6B9400B0A7FB /* ZFXWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B750E02A4E6B9400B0A7FB /* ZFXWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,10 @@
 		F1848B8A2A1F60E800CDC482 /* ZFXCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFXCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1848B8E2A1F60E800CDC482 /* ZFXCommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXCommonUITests.m; sourceTree = "<group>"; };
 		F1848B902A1F60E800CDC482 /* ZFXCommonUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXCommonUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F1B750DB2A4E6B6800B0A7FB /* ZFXLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXLogManager.h; sourceTree = "<group>"; };
+		F1B750DC2A4E6B6800B0A7FB /* ZFXLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXLogManager.m; sourceTree = "<group>"; };
+		F1B750DF2A4E6B9400B0A7FB /* ZFXWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXWebView.h; sourceTree = "<group>"; };
+		F1B750E02A4E6B9400B0A7FB /* ZFXWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,9 @@
 		F1848BD92A1F612100CDC482 /* CommonUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F1B750E32A4E6C3000B0A7FB /* LaunchAd */,
+				F1B750E22A4E6BF700B0A7FB /* ToastView */,
+				F1B750DE2A4E6B7500B0A7FB /* WebView */,
 				F16CE11D2A204EEE0092870B /* AnswerPage */,
 				F16CE1192A204CFE0092870B /* Category */,
 			);
@@ -232,8 +241,41 @@
 		F1848BDB2A1F629700CDC482 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				F1B750DA2A4E6B2400B0A7FB /* Log */,
 			);
 			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		F1B750DA2A4E6B2400B0A7FB /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				F1B750DB2A4E6B6800B0A7FB /* ZFXLogManager.h */,
+				F1B750DC2A4E6B6800B0A7FB /* ZFXLogManager.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		F1B750DE2A4E6B7500B0A7FB /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				F1B750DF2A4E6B9400B0A7FB /* ZFXWebView.h */,
+				F1B750E02A4E6B9400B0A7FB /* ZFXWebView.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		F1B750E22A4E6BF700B0A7FB /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		F1B750E32A4E6C3000B0A7FB /* LaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchAd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,12 +518,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16CE1262A20616D0092870B /* ZFXPageView.m in Sources */,
+				F1B750DD2A4E6B6800B0A7FB /* ZFXLogManager.m in Sources */,
 				F1848B702A1F60E600CDC482 /* ViewController.m in Sources */,
 				F1848B6A2A1F60E600CDC482 /* AppDelegate.m in Sources */,
 				F1848B7B2A1F60E800CDC482 /* main.m in Sources */,
 				F1848B6D2A1F60E600CDC482 /* SceneDelegate.m in Sources */,
 				F16CE1232A205F000092870B /* ZFXTempView.m in Sources */,
 				F16CE1202A204F070092870B /* ZFXAnswerPageView.m in Sources */,
+				F1B750E12A4E6B9400B0A7FB /* ZFXWebView.m in Sources */,
 				F16CE11C2A204D1B0092870B /* UIView+ZFXKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
