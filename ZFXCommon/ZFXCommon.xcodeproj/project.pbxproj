@@ -14,6 +14,17 @@
 		F16CE1202A204F070092870B /* ZFXAnswerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE11F2A204F070092870B /* ZFXAnswerPageView.m */; };
 		F16CE1232A205F000092870B /* ZFXTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE1222A205F000092870B /* ZFXTempView.m */; };
 		F16CE1262A20616D0092870B /* ZFXPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16CE1242A20616C0092870B /* ZFXPageView.m */; };
+		F17AC5E22A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5E12A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.m */; };
+		F17AC5EB2A4E805C006BCBA2 /* UIDevice+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5EA2A4E805C006BCBA2 /* UIDevice+Adapter.m */; };
+		F17AC5EE2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5ED2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.m */; };
+		F17AC5F32A4E853E006BCBA2 /* ZFXGestureUnLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5F22A4E853E006BCBA2 /* ZFXGestureUnLockView.m */; };
+		F17AC5F72A4E87F6006BCBA2 /* ZFXDrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5F62A4E87F6006BCBA2 /* ZFXDrawingBoardView.m */; };
+		F17AC5FA2A4E881C006BCBA2 /* ZFXDrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5F92A4E881C006BCBA2 /* ZFXDrawBezierPath.m */; };
+		F17AC5FE2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC5FD2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.m */; };
+		F17AC6012A4EA0B8006BCBA2 /* ZFXKeychainService.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC6002A4EA0B8006BCBA2 /* ZFXKeychainService.m */; };
+		F17AC6042A4EA2FA006BCBA2 /* NSString+ZFXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC6032A4EA2FA006BCBA2 /* NSString+ZFXCategory.m */; };
+		F17AC6072A4EA30C006BCBA2 /* UIImage+ZFXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F17AC6062A4EA30C006BCBA2 /* UIImage+ZFXCategory.m */; };
+		F180C2A22A4ED527006FF830 /* ZFXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F180C2A12A4ED527006FF830 /* ZFXToast.m */; };
 		F1848B6A2A1F60E600CDC482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B692A1F60E600CDC482 /* AppDelegate.m */; };
 		F1848B6D2A1F60E600CDC482 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B6C2A1F60E600CDC482 /* SceneDelegate.m */; };
 		F1848B702A1F60E600CDC482 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848B6F2A1F60E600CDC482 /* ViewController.m */; };
@@ -63,6 +74,29 @@
 		F16CE1222A205F000092870B /* ZFXTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXTempView.m; sourceTree = "<group>"; };
 		F16CE1242A20616C0092870B /* ZFXPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFXPageView.m; sourceTree = "<group>"; };
 		F16CE1252A20616C0092870B /* ZFXPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFXPageView.h; sourceTree = "<group>"; };
+		F17AC5D92A4E7748006BCBA2 /* ZFXCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXCommon.h; sourceTree = "<group>"; };
+		F17AC5E02A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXWaterFlowLayout.h; sourceTree = "<group>"; };
+		F17AC5E12A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXWaterFlowLayout.m; sourceTree = "<group>"; };
+		F17AC5E92A4E805C006BCBA2 /* UIDevice+Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Adapter.h"; sourceTree = "<group>"; };
+		F17AC5EA2A4E805C006BCBA2 /* UIDevice+Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Adapter.m"; sourceTree = "<group>"; };
+		F17AC5EC2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ZFXAdapter.h"; sourceTree = "<group>"; };
+		F17AC5ED2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ZFXAdapter.m"; sourceTree = "<group>"; };
+		F17AC5F12A4E853E006BCBA2 /* ZFXGestureUnLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXGestureUnLockView.h; sourceTree = "<group>"; };
+		F17AC5F22A4E853E006BCBA2 /* ZFXGestureUnLockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXGestureUnLockView.m; sourceTree = "<group>"; };
+		F17AC5F52A4E87F6006BCBA2 /* ZFXDrawingBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXDrawingBoardView.h; sourceTree = "<group>"; };
+		F17AC5F62A4E87F6006BCBA2 /* ZFXDrawingBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXDrawingBoardView.m; sourceTree = "<group>"; };
+		F17AC5F82A4E881C006BCBA2 /* ZFXDrawBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXDrawBezierPath.h; sourceTree = "<group>"; };
+		F17AC5F92A4E881C006BCBA2 /* ZFXDrawBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXDrawBezierPath.m; sourceTree = "<group>"; };
+		F17AC5FC2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		F17AC5FD2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		F17AC5FF2A4EA0B8006BCBA2 /* ZFXKeychainService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXKeychainService.h; sourceTree = "<group>"; };
+		F17AC6002A4EA0B8006BCBA2 /* ZFXKeychainService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXKeychainService.m; sourceTree = "<group>"; };
+		F17AC6022A4EA2FA006BCBA2 /* NSString+ZFXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZFXCategory.h"; sourceTree = "<group>"; };
+		F17AC6032A4EA2FA006BCBA2 /* NSString+ZFXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZFXCategory.m"; sourceTree = "<group>"; };
+		F17AC6052A4EA30C006BCBA2 /* UIImage+ZFXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZFXCategory.h"; sourceTree = "<group>"; };
+		F17AC6062A4EA30C006BCBA2 /* UIImage+ZFXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZFXCategory.m"; sourceTree = "<group>"; };
+		F180C2A02A4ED527006FF830 /* ZFXToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFXToast.h; sourceTree = "<group>"; };
+		F180C2A12A4ED527006FF830 /* ZFXToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXToast.m; sourceTree = "<group>"; };
 		F1848B652A1F60E600CDC482 /* ZFXCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFXCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1848B682A1F60E600CDC482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1848B692A1F60E600CDC482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +176,14 @@
 			children = (
 				F16CE11A2A204D1B0092870B /* UIView+ZFXKit.h */,
 				F16CE11B2A204D1B0092870B /* UIView+ZFXKit.m */,
+				F17AC5E92A4E805C006BCBA2 /* UIDevice+Adapter.h */,
+				F17AC5EA2A4E805C006BCBA2 /* UIDevice+Adapter.m */,
+				F17AC5EC2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.h */,
+				F17AC5ED2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.m */,
+				F17AC6022A4EA2FA006BCBA2 /* NSString+ZFXCategory.h */,
+				F17AC6032A4EA2FA006BCBA2 /* NSString+ZFXCategory.m */,
+				F17AC6052A4EA30C006BCBA2 /* UIImage+ZFXCategory.h */,
+				F17AC6062A4EA30C006BCBA2 /* UIImage+ZFXCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -153,6 +195,82 @@
 				F16CE11F2A204F070092870B /* ZFXAnswerPageView.m */,
 			);
 			path = AnswerPage;
+			sourceTree = "<group>";
+		};
+		F17AC5D82A4E76A6006BCBA2 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5D92A4E7748006BCBA2 /* ZFXCommon.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F17AC5DA2A4E7846006BCBA2 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		F17AC5DE2A4E7A7C006BCBA2 /* NewWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewWork;
+			sourceTree = "<group>";
+		};
+		F17AC5DF2A4E7E6A006BCBA2 /* WaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5E02A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.h */,
+				F17AC5E12A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.m */,
+			);
+			path = WaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		F17AC5EF2A4E8501006BCBA2 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5FF2A4EA0B8006BCBA2 /* ZFXKeychainService.h */,
+				F17AC6002A4EA0B8006BCBA2 /* ZFXKeychainService.m */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		F17AC5F02A4E8522006BCBA2 /* GestureUnLock */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5F12A4E853E006BCBA2 /* ZFXGestureUnLockView.h */,
+				F17AC5F22A4E853E006BCBA2 /* ZFXGestureUnLockView.m */,
+			);
+			path = GestureUnLock;
+			sourceTree = "<group>";
+		};
+		F17AC5F42A4E87DB006BCBA2 /* DrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5F52A4E87F6006BCBA2 /* ZFXDrawingBoardView.h */,
+				F17AC5F62A4E87F6006BCBA2 /* ZFXDrawingBoardView.m */,
+				F17AC5F82A4E881C006BCBA2 /* ZFXDrawBezierPath.h */,
+				F17AC5F92A4E881C006BCBA2 /* ZFXDrawBezierPath.m */,
+			);
+			path = DrawingBoard;
+			sourceTree = "<group>";
+		};
+		F17AC5FB2A4E887F006BCBA2 /* ExceptionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F17AC5FC2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.h */,
+				F17AC5FD2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.m */,
+			);
+			path = ExceptionHandler;
+			sourceTree = "<group>";
+		};
+		F17AC6082A4EA3EE006BCBA2 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseController;
 			sourceTree = "<group>";
 		};
 		F1848B5C2A1F60E600CDC482 = {
@@ -222,6 +340,10 @@
 		F1848BD92A1F612100CDC482 /* CommonUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F17AC6082A4EA3EE006BCBA2 /* BaseController */,
+				F17AC5F42A4E87DB006BCBA2 /* DrawingBoard */,
+				F17AC5F02A4E8522006BCBA2 /* GestureUnLock */,
+				F17AC5DF2A4E7E6A006BCBA2 /* WaterFlowLayout */,
 				F1B750E32A4E6C3000B0A7FB /* LaunchAd */,
 				F1B750E22A4E6BF700B0A7FB /* ToastView */,
 				F1B750DE2A4E6B7500B0A7FB /* WebView */,
@@ -241,6 +363,11 @@
 		F1848BDB2A1F629700CDC482 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				F17AC5FB2A4E887F006BCBA2 /* ExceptionHandler */,
+				F17AC5EF2A4E8501006BCBA2 /* KeyChain */,
+				F17AC5DE2A4E7A7C006BCBA2 /* NewWork */,
+				F17AC5D82A4E76A6006BCBA2 /* Const */,
+				F17AC5DA2A4E7846006BCBA2 /* Downloader */,
 				F1B750DA2A4E6B2400B0A7FB /* Log */,
 			);
 			path = CommonUtils;
@@ -267,6 +394,8 @@
 		F1B750E22A4E6BF700B0A7FB /* ToastView */ = {
 			isa = PBXGroup;
 			children = (
+				F180C2A02A4ED527006FF830 /* ZFXToast.h */,
+				F180C2A12A4ED527006FF830 /* ZFXToast.m */,
 			);
 			path = ToastView;
 			sourceTree = "<group>";
@@ -517,10 +646,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17AC6072A4EA30C006BCBA2 /* UIImage+ZFXCategory.m in Sources */,
+				F17AC5EB2A4E805C006BCBA2 /* UIDevice+Adapter.m in Sources */,
+				F17AC5E22A4E7E8D006BCBA2 /* ZFXWaterFlowLayout.m in Sources */,
 				F16CE1262A20616D0092870B /* ZFXPageView.m in Sources */,
+				F17AC5EE2A4E80EF006BCBA2 /* UIApplication+ZFXAdapter.m in Sources */,
+				F17AC5F32A4E853E006BCBA2 /* ZFXGestureUnLockView.m in Sources */,
 				F1B750DD2A4E6B6800B0A7FB /* ZFXLogManager.m in Sources */,
+				F17AC6042A4EA2FA006BCBA2 /* NSString+ZFXCategory.m in Sources */,
 				F1848B702A1F60E600CDC482 /* ViewController.m in Sources */,
+				F17AC5FA2A4E881C006BCBA2 /* ZFXDrawBezierPath.m in Sources */,
+				F17AC5FE2A4E889C006BCBA2 /* ZFXUncaughtExceptionHandler.m in Sources */,
+				F17AC5F72A4E87F6006BCBA2 /* ZFXDrawingBoardView.m in Sources */,
 				F1848B6A2A1F60E600CDC482 /* AppDelegate.m in Sources */,
+				F180C2A22A4ED527006FF830 /* ZFXToast.m in Sources */,
+				F17AC6012A4EA0B8006BCBA2 /* ZFXKeychainService.m in Sources */,
 				F1848B7B2A1F60E800CDC482 /* main.m in Sources */,
 				F1848B6D2A1F60E600CDC482 /* SceneDelegate.m in Sources */,
 				F16CE1232A205F000092870B /* ZFXTempView.m in Sources */,

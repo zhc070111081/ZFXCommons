@@ -9,6 +9,8 @@
 #import "ZFXAnswerPageView.h"
 #import "ZFXTempView.h"
 #import "ZFXPageView.h"
+#import "ZFXCommon.h"
+
 @interface ViewController ()<UIZFXPageViewDelegate>
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 
@@ -47,6 +49,8 @@
 
 - (IBAction)nextBtnClick:(id)sender {
     [self.pageView switchToNextPageAnimated:YES];
+    
+//    @zfx_weakify(self);
 }
 
 @end
